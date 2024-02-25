@@ -1,0 +1,207 @@
+
+html
+{
+    width: 100%;
+}
+body
+{
+    background-color: #d0d0d5;
+}
+
+.headbar
+{
+    background-color: #0a0a23;
+    margin: -8px;
+    min-width: 1700px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    margin-right: px;
+}
+
+.maintheme
+{
+    display: flex;
+    justify-content: center;
+}
+
+#freecodecamplogo
+{
+    height: 220px;
+    width: 220px;
+}
+
+.mainlogin
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+    border: solid 3px #0a0a23;
+    background-color: white;
+    min-width: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+h2
+{
+    font-weight: 400;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+#logosvg
+{
+    margin-top: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.logintypes a button span
+{
+    text-decoration: underline 2px solid white;
+}
+
+.logintypes button
+{
+    display: flex;
+    border: solid 4px #c2c8d0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 15px;
+    align-items: center;
+    min-width: 300px;
+}
+
+.logintypes button:hover
+{
+    background-color: #c2c8d0;
+    cursor : pointer;
+    text-decoration: underline 2px solid #c2c8d0;
+}
+
+.logintypes :hover
+{
+    text-decoration: underline 2px solid #c2c8d0;
+}
+
+
+.login_logo
+{
+    height: 25px;
+    padding-right: 10px;
+}
+
+#or
+{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#or span
+{
+    display: inline-block;
+    margin: 3px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+.email
+{
+    margin-top: 10px;
+}
+
+#emailtxt
+{
+    min-width: 285px;
+    max-width: 285px;
+    border: solid 3px #0a0a23;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#emailtxt:active
+{
+    border-color: #635dff;
+}
+
+
+.cemail
+{
+    margin-top: 25px;
+}
+
+.cemail button
+{
+    min-width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 15px;
+    background-color: #f1be32;
+    border: none;
+
+}
+
+.noaccount
+{
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.noaccount a
+{
+    text-decoration: none;
+    color: #635dff;
+    font-weight: 650;
+}
+
+
+#footer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#footer div
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #3b3b4f;
+}
+
+#footer a
+{
+    text-decoration: none;
+    color: #635dff;
+}
+
+.cemail button:hover
+{
+    background-color: #ba9202;
+    cursor: pointer;
+}
+
+
+
+
